@@ -118,14 +118,14 @@ class FormNovoContato extends React.Component {
                value={this.state.descricao}
                controla_input={this.controla_input} />
             <div className='row'>
-               <div className='col-3 text-center'>
+            <div className='col-xs-3 my-2 col-lg-6 col-sm-3 text-center'>
                   <Button
                      classButton='btn btn-primary btn-block'
                      type='submit'
                      value='Adicionar'
                      ativo={this.state.btnAdicionarOff} />
                </div>
-               <div className='col-3 text-center'>
+               <div className='col-xs-3 my-2 col-lg-6 col-sm-3 text-center'>
                   <Button
                      classButton='btn btn-primary btn-block'
                      type='button'
@@ -133,7 +133,7 @@ class FormNovoContato extends React.Component {
                      value='Atualizar'
                      ativo={this.state.btnAtualizarOff} />
                </div>
-               <div className='col-3 text-center'>
+               <div className='col-xs-3 my-2 col-lg-6 col-sm-3 text-center'>
                   <Button
                      classButton='btn btn-primary btn-block'
                      type='button'
@@ -141,7 +141,7 @@ class FormNovoContato extends React.Component {
                      cliqueBotao={this.excluir}
                      ativo={this.state.btnExcluirOff} />
                </div>
-               <div className='col-3 text-center'>
+               <div className='col-xs-3 my-2 col-lg-6 col-sm-3 text-center'>
                   <Button
                      classButton='btn btn-primary btn-block'
                      type='button'
